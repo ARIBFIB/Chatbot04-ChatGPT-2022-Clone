@@ -13,3 +13,7 @@
 
 # Note
 Issue found: faild to fetch models from backend
+
+![image](https://github.com/user-attachments/assets/0cbdd210-97c6-4d16-83dd-50f53d288b70)
+
+![image](https://github.com/user-attachments/assets/882e8620-ded4-46f0-b0a1-b095fefc6275)
