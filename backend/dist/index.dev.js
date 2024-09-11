@@ -16,6 +16,7 @@ app.use(bodyParser.json());
 app.use(cors());
 var port = 3080;
 var openai = new OpenAI({
+  apiKey: "a" // Use environment variable for security
 
 }); //post
 
@@ -34,7 +35,7 @@ app.post('/', function _callee(req, res) {
             temperature: 0.5,
             messages: [{
               role: "user",
-              content: message 
+              content: message
             }]
           }));
 
