@@ -1,6 +1,5 @@
 "use strict";
 
-// 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
 var express = require('express');
 
 var bodyParser = require('body-parser');
@@ -17,7 +16,6 @@ app.use(bodyParser.json());
 app.use(cors());
 var port = 3080;
 var openai = new OpenAI({
-  apiKey: "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" // Use environment variable for security
 
 }); //post
 
