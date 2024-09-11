@@ -34,7 +34,7 @@ app.post('/', function _callee(req, res) {
             temperature: 0.5,
             messages: [{
               role: "user",
-              content: message
+              content: message 
             }]
           }));
 
