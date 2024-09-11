@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use(cors());
 var port = 3080;
 var openai = new OpenAI({
-  apiKey: "a" // Use environment variable for security
+  apiKey: "Add your Chatgpt key here" // Use environment variable for security
 
 }); //post
 

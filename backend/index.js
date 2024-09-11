@@ -1,4 +1,4 @@
-// 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
+
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -15,7 +15,7 @@ app.use(cors());
 const port = 3080;
 
 const openai = new OpenAI({
-  apiKey: "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", 
+  apiKey: "Add your Chatgpt key here", 
   // Use environment variable for security
 });
 
